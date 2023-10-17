@@ -2,6 +2,7 @@
 
 [BudouX](https://github.com/google/budoux/tree/main/javascript) を用いて `<p>`
 タグの文章を分かち書きさせるプラグインです。
+[Astro](https://astro.build)などのSSGをする場合などに重宝するでしょう。
 
 ## インストール
 
