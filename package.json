@@ -1,0 +1,24 @@
+{
+  "name": "rehype-budoux-paragraph",
+  "version": "1.0.0",
+  "description": "Rehype plugin to apply BudouX to every p-tag.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "Amadeus_vn",
+  "license": "ISC",
+  "dependencies": {
+    "budoux": "^0.5.2",
+    "rehype-stringify": "^10.0.0",
+    "unified": "^11.0.3",
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/unist": "^3.0.0",
+    "typescript": "^5.2.2"
+  }
+}
